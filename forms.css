@@ -1,0 +1,79 @@
+/*Nav Bar Styles*/
+#navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+#navElement{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li a:hover {
+    background-color:white;
+    color: #111;
+  }
+
+  #menu{
+    width: 50%;
+    background-color: #111;
+    float: left;
+    color: white;
+    top: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+
+  #info{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #111;
+    float: right;
+    width: 49.5%;
+    text-align: center;
+    position:relative;
+    height:500px;
+    
+  }
+  #menuHeading{
+  text-align:center
+}
+.description{
+  text-align:center
+}
+
+#menuItem{
+font-size: 20px;
+font-weight: bold;
+text-align:center;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #carouselExampleIndicators{
+    float: right;
+    height:300px;
+    position: relative;
+    top: 12px;
+    width: 100%;
+    background-color: #111;
+  }
